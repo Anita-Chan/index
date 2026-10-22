@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+</head> 
+<body> 
+    <h2 align="center">2027夏日AI程式設計營報名表</h2> 
+    <form action="signup.php" width="60%"  method="post" border="0"> 
+        <table border="1" align="center"> 
+            <tr> 
+               <td colspan="2" align="center"><img src="shutterstock_205417123.jpg" align="center" width="600px" height="400px"><br> 
+                <a href="https://www.aicamp2027.tw" target="_blank">營隊介紹</a></td> 
+            </tr> 
+           <tr>
+            <td colspan="2" align="center">學員基本資料</td>
+           </tr>
+           <tr>
+            <td>姓名</td>
+            <td><input type="text" name="name" size="20"></td>
+           </tr>
+           <tr>
+            <td>身分</td>
+            <td><lable><input type="radio" name="id" value="高中生">高中生</lable>
+                <lable><input type="radio" name="id" value="大學生">大學生</lable>
+                <lable><input type="radio" name="id" value="社會人士">社會人士</lable>
+            </td>
+           </tr>
+           <tr>
+            <td>出生日期</td>
+            <td><input type="date" name="selectdate"></td>
+           </tr>
+           <tr>
+            <td>電子郵件</td>
+            <td><input type="email" name="email"></td>
+           </tr>
+           <tr>
+            <td colspan="2" align="center"課程選擇與學習背景></td>
+           </tr>
+           <tr>
+            <td>參加梯次</td>
+            <td><select name="choice" size="1">
+                <option value="--請選擇梯次--">--請選擇梯次--</option>
+                <option value="第一梯次(7/12-7/16)">第一梯次(7/12-7/16)</option>
+                <option value="第二梯次(7/26-7-30)">第二梯次(7/26-7-30)</option>
+                <option value="第三梯次(8/9-8/13)">第三梯次(8/9-8/13)</option>
+            </select></td>
+           </tr>
+           <tr>
+            <td>程式經驗</td>
+            <td>
+                <label><input type="radio" name="ex" value="無經驗">無經驗</label>
+                <label><input type="radio" name="ex" value="一年以上">一年以上</label>
+                <label><input type="radio" name="ex" value="一年以下">一年以下</label>
+            </td>
+           </tr>
+           <tr>
+            <td>想學習的主題</td>
+            <td>
+                <label><input type="checkbox" name="co" value="Pathon程式設計">Pathon程式設計</label>
+                <label><input type="checkbox" name="co" value="網頁設計">網頁設計</label>
+                <label><input type="checkbox" name="co" value="機器學習">機器學習</label>
+                <label><input type="checkbox" name="co" value="遊戲開發">遊戲開發</label>
+                <label><input type="checkbox" name="co" value="APP開發">APP開發</label>
+            </td>
+           </tr>
+           <tr>
+            <td colspan="2" align="center">其他資訊</td>
+           </tr>
+           <tr>
+            <td>自我介紹</td>
+            <td>請簡單自我介紹自己及參加營隊的動機(最多300字)<br>
+                <textarea name="comment" cols="50" rows="3"></textarea>
+            </td>
+           </tr>
+           <tr>
+            <td>飲食或其他需求</td>
+            <td>如有飲食限制跟其他需求請說明:<br><textarea name="food" cols="50" rows="3"></textarea></td>
+           </tr>
+           <tr>
+            <td colspan="2" align="center"><input type="submit" value="送出報名">
+            <input type="reset" valur="清除重鎮">
+            </td>
+           </tr>
+           <tr>
+            <td colspan="2" align="center">報名完成後我們將於三個工作天內已電子郵件通知錄取結果<br>
+                <a href="mailto:0417anita@gmail.com">聯絡我們</a>
+            </td>
+           </tr>
+        </table> 
+    </form> 
+</body>
