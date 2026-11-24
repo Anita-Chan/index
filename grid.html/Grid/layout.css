@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(156, 169, 144);
+    margin: 0px;
+}
+
+header {
+    background-color: hsl(180, 8%, 23%);
+    color: rgb(210, 202, 202);
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+nav {
+    background-color: #94ACAC;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+
+}
+
+nav a {
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+nav a:hover {
+    background-color: #4A6D7C;
+    color: white;
+}
+
+footer {
+    background-color: #404834;
+    color: rgb(181, 184, 187);
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.card {
+    /*background-color: aliceblue;*/
+    /*背景圖*/
+    background-image: url(image/card_img.jpg);
+    background-size: cover;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+aside {
+    grid-area: 4 / 1 / 5 / 3;
+    text-align: center;
+    padding: 20px;
+}
+main{
+    display: grid;
+    width: 70%;
+    margin-left: 180px;
+    /*grid-template-columes:1fr 1fr 1fr*/
+    grid-template-columns:repeaat(2,1fr);
+    gap:10px;
+    grid-auto-flow: row;
+
+}
+

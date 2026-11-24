@@ -1,0 +1,56 @@
+<html lang="en">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: 20% 1fr 10%;
+            grid-template-columns: 15% 1fr 1fr;
+            min-height: 950px;
+            width: auto;
+        }
+
+        header {
+            background-color: #496E4C;
+            grid-row: 1/2;
+            grid-column: 1/4;
+        }
+
+        aside {
+            background-color: #A3B18A;
+            grid-row: 2/3;
+            grid-column: 1/2;
+
+        }
+
+        main {
+            background-color: #dad7cd;
+            grid-row: 2/3;
+            grid-column: 2/4;
+        }
+
+        footer {
+            background-color: #588157;
+            grid-row: 3/4;
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <header></header>
+    <aside></aside>
+    <main></main>
+    <footer></footer>
+</body>
+
+</html>
